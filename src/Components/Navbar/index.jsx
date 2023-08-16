@@ -14,7 +14,7 @@ const Navbar = () => {
                 <li className="font-semibold text-lg ">
                     <NavLink 
                     to='/'>
-                        Shopi
+                        ToShopi
                     </NavLink>
                 </li>
                 <li>
@@ -94,7 +94,7 @@ const Navbar = () => {
                     </NavLink>
                 </li>
                 <li className='flex items-center'>
-                    <ShoppingBagIcon className='h-6 w-6 text-blue-500'></ShoppingBagIcon >
+                    <ShoppingBagIcon className='h-6 w-6 text-black-500'></ShoppingBagIcon >
                     <div>
                         {context.count}
                     </div>
